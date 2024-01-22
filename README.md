@@ -1,2 +1,0 @@
-# calculator
-JS dynamic calculator 
