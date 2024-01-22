@@ -56,27 +56,48 @@
                         <li><a href="" class="text-lg">Contact</a></li>
                     </ul>
                 </div>
-                <a class="text-4xl font-extrabold cursor-pointer ml-4 lg:ml-0">Hockey<span class="text-red-500">’</span>s</a>
+                <a class="text-4xl font-extrabold cursor-pointer ml-4 lg:ml-0">Hockey<span
+                        class="text-red-500">’</span>s</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
-                    <li><a href="" class="text-lg">Home</a></li>
-                    <li><a href="" class="text-lg">About</a></li>
-                    <li><a href="" class="text-lg">Pages</a></li>
-                    <li><a href="" class="text-lg">Blog</a></li>
-                    <li><a href="" class="text-lg">Contact</a></li>
+                    <li><a href="" class="text-lg hover:bg-transparent">Home</a></li>
+                    <li><a href="" class="text-lg hover:bg-transparent">About</a></li>
+                    <li><a href="" class="text-lg hover:bg-transparent">Pages</a></li>
+                    <li><a href="" class="text-lg hover:bg-transparent">Blog</a></li>
+                    <li><a href="" class="text-lg hover:bg-transparent">Contact</a></li>
                 </ul>
             </div>
             <div class="navbar-end">
-                <i class="fa-solid fa-magnifying-glass hidden md:block mr-6"></i>
-                <a class="btn rounded-8 bg-red-500 text-white text-xl font-semibold">Get Ticket</a>
+                <i class="fa-solid fa-magnifying-glass text-2xl text-gray-500 hidden md:block mr-6"></i>
+                <a class="btn rounded-8 bg-red-500 text-white text-xl font-semibold hover:bg-red-600">Get Ticket</a>
             </div>
 
     </header>
 
     <!-- main content section  -->
     <main>
-
+        <!-- Slider Section  -->
+        <section class="w-full md:w-[1170px] mx-auto py-12 px-4 lg:px-0">
+            <div class="carousel w-full ">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="images/1.png" class="w-full h-3/4" />
+                    <div class="absolute flex justify-around transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-outline">❮</a>
+                        <h1 class="text-6xl text-white">Hello World</h1>
+                        <a href="#slide2" class="btn btn-outline">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="images/2.png" class="w-full h-3/4" />
+                    <div class="absolute flex justify-around transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-outline">❮</a>
+                        <h1 class="text-6xl text-white">Hello World</h1>
+                        <a href="#slide3" class="btn btn-outline">❯</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
 
