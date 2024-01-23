@@ -33,6 +33,9 @@
         .font-family {
             font-family: 'Manrope', sans-serif;
         }
+        textarea{
+            resize: none !important;
+        }
     </style>
 </head>
 
@@ -470,29 +473,27 @@
                         adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
                 </div>
 
-                <div class="flex gap-6  justify-center items-center">
-                    <div class="address-bar col-span-3 p-12 border-2 rounded-xl">
-                        <div class="phone-number py-12 px-8 rounded-2xl mb-6 bg-green-300 bg-opacity-10">
-                            <img src="Images/phone-icon.png" alt="">
+                <div class="grid grid-cols-12 gap-6 mb-12 justify-between items-center">
+                    <div class="address-bar col-span-5 p-10 border-2 rounded-xl">
+                        <div class="phone-number py-10 px-8 rounded-2xl mb-6 bg-green-300 bg-opacity-10">
+                            <img src="Images/phone-icon.png" class="mb-6" alt="">
                             <p class="text-gray-400 text-base">Phone Number :</p>
                             <h4 class="text-black text-lg font-extrabold">(+62) 123-321-543</h4>
                         </div>
-                        <div class="email py-12 px-8 rounded-2xl mb-6 bg-yellow-300 bg-opacity-10">
-                            <img src="Images/gmail-icon.png" alt="">
+                        <div class="email py-10 px-8 rounded-2xl mb-6 bg-yellow-300 bg-opacity-10">
+                            <img src="Images/gmail-icon.png" class="mb-6" alt="">
                             <p class="text-gray-400 text-base">Email :</p>
                             <h4 class="text-black text-lg font-extrabold">hockeys@support.com</h4>
                         </div>
-                        <div class="location py-12 px-8 rounded-2xl bg-blue-400 bg-opacity-10">
-                            <img src="Images/map-icon.png" alt="">
+                        <div class="location py-10 px-8 rounded-2xl bg-blue-400 bg-opacity-10">
+                            <img src="Images/map-icon.png" class="mb-6" alt="">
                             <p class="text-gray-400 text-base">Location :</p>
                             <h4 class="text-black text-lg font-extrabold">152/1 Mohakhali Wireless Gate</h4>
                         </div>
                     </div>
-                    <div class="contact-from">
-                        <!-- <label for="name">Your Name</label>
-                        <input type="text" placeholder="Enter your full name" id="name">
-                        <label for="name">Your Name</label>
-                        <input type="text" placeholder="Enter your full name" id="name"> -->
+
+                    
+                    <div class="contact-from col-span-7">
                         <div class="flex gap-6 mb-6">
                             <div class="w-1/2">
                                 <label for="name" class="text-black text-xl font-bold">Your Name</label>
@@ -518,8 +519,18 @@
                             <textarea placeholder="Write your message" id="message" cols="30" rows="10" class="w-full p-5 rounded-xl bg-gray-50 mt-4 outline-none"></textarea>
                         </div>
                         <button
-                        class="btn border-none rounded-8 bg-red-500 text-white text-xl font-semibold hover:bg-red-600">Register
-                        Now!</button>
+                        class="btn border-none rounded-8 w-full bg-red-500 text-white text-xl font-semibold hover:bg-red-800">Send Message</button>
+                    </div>
+                </div>
+
+                <!-- social icon  -->
+                <div class="grid justify-center items-center bg-gray-50 py-10 rounded-xl">
+                    <h1 class="text-xl font-extrabold mb-6">Social Media</h1>
+                    <div class="icons flex gap-5 justify-center items-center">
+                        <i class="fa-brands fa-x-twitter cursor-pointer text-2xl"></i>
+                        <i class="fa-brands fa-linkedin-in cursor-pointer text-2xl"></i>
+                        <i class="fa-brands fa-facebook-f cursor-pointer text-2xl"></i>
+                        <i class="fa-brands fa-instagram cursor-pointer text-2xl"></i>
                     </div>
                 </div>
             </div>
