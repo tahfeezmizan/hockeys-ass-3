@@ -83,7 +83,7 @@
         <section class="w-full md:w-8/12 h-56 lg:h-[560px] mx-auto pb-12 px-4 lg:px-0">
             <div class="carousel w-full ">
                 <div id="slide1" class="carousel-item relative w-full">
-                    <img src="images/1.png" class="w-full h-3/4" />
+                    <img src="Images/1.png" class="w-full h-3/4" />
                     <div class="absolute flex gap-96 left-8 right-5 top-[5%] md:top-[45%]">
                         <div class="flex gap-5 md:items-end">
                             <a href="#slide4"
@@ -99,7 +99,7 @@
                     </div>
                 </div>
                 <div id="slide2" class="carousel-item relative w-full">
-                    <img src="images/2.png" class="w-full h-3/4" />
+                    <img src="Images/2.png" class="w-full h-3/4" />
                     <div class="absolute flex gap-96 left-8 right-5 top-[5%] md:top-[45%]">
                         <div class="flex gap-5 md:items-end">
                             <a href="#slide1"
@@ -387,7 +387,8 @@
                         adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
                 </div>
 
-                <div class="grid gap-5 md:gap-6 xl:gap-10 p-8 border-2 rounded-xl grid-cols-1 xl:grid-cols-2 justify-center items-center">
+                <div
+                    class="grid gap-5 md:gap-6 xl:gap-10 p-8 border-2 rounded-xl grid-cols-1 xl:grid-cols-2 justify-center items-center">
                     <div class="FAQ image">
                         <img src="Images/11.png" class="w-full" alt="">
                     </div>
@@ -469,14 +470,61 @@
                         adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
                 </div>
 
-                <div class="grid gap-5 md:gap-6 xl:gap-10  grid-cols-1 xl:grid-cols-2 justify-center items-center">
-                    <div class="address-bar p-8 border-2 rounded-xl">
-
+                <div class="flex gap-6  justify-center items-center">
+                    <div class="address-bar col-span-3 p-12 border-2 rounded-xl">
+                        <div class="phone-number py-12 px-8 rounded-2xl mb-6 bg-green-300 bg-opacity-10">
+                            <img src="Images/phone-icon.png" alt="">
+                            <p class="text-gray-400 text-base">Phone Number :</p>
+                            <h4 class="text-black text-lg font-extrabold">(+62) 123-321-543</h4>
+                        </div>
+                        <div class="email py-12 px-8 rounded-2xl mb-6 bg-yellow-300 bg-opacity-10">
+                            <img src="Images/gmail-icon.png" alt="">
+                            <p class="text-gray-400 text-base">Email :</p>
+                            <h4 class="text-black text-lg font-extrabold">hockeys@support.com</h4>
+                        </div>
+                        <div class="location py-12 px-8 rounded-2xl bg-blue-400 bg-opacity-10">
+                            <img src="Images/map-icon.png" alt="">
+                            <p class="text-gray-400 text-base">Location :</p>
+                            <h4 class="text-black text-lg font-extrabold">152/1 Mohakhali Wireless Gate</h4>
+                        </div>
                     </div>
-                    <div class="contact-from"></div>
+                    <div class="contact-from">
+                        <!-- <label for="name">Your Name</label>
+                        <input type="text" placeholder="Enter your full name" id="name">
+                        <label for="name">Your Name</label>
+                        <input type="text" placeholder="Enter your full name" id="name"> -->
+                        <div class="flex gap-6 mb-6">
+                            <div class="w-1/2">
+                                <label for="name" class="text-black text-xl font-bold">Your Name</label>
+                                <input type="text" placeholder="Enter your full name" id="name" class="w-full p-5 rounded-xl bg-gray-50 mt-4 outline-none ">
+                            </div>
+                            <div class="w-1/2">
+                                <label for="name" class="text-black text-xl font-bold">Your Email</label>
+                                <input type="email" placeholder="Enter your email" id="name" class="w-full p-5 rounded-xl bg-gray-50 mt-4 outline-none ">
+                            </div>
+                        </div>
+                        <div class="flex gap-6 mb-6">
+                            <div class="w-1/2">
+                                <label for="subject" class="text-black text-xl font-bold">Subject</label>
+                                <input type="text" placeholder="Enter your subject" id="subject" class="w-full p-5 rounded-xl bg-gray-50 mt-4 outline-none ">
+                            </div>
+                            <div class="w-1/2">
+                                <label for="number" class="text-black text-xl font-bold">Your Number</label>
+                                <input type="number" placeholder="Enter your phone number" id="number" class="w-full p-5 rounded-xl bg-gray-50 mt-4 outline-none ">
+                            </div>
+                        </div>
+                        <div class="mb-8">
+                            <label for="message" class="text-black text-xl font-bold">Message</label>
+                            <textarea placeholder="Write your message" id="message" cols="30" rows="10" class="w-full p-5 rounded-xl bg-gray-50 mt-4 outline-none"></textarea>
+                        </div>
+                        <button
+                        class="btn border-none rounded-8 bg-red-500 text-white text-xl font-semibold hover:bg-red-600">Register
+                        Now!</button>
+                    </div>
                 </div>
             </div>
-        </section>            
+            </div>
+        </section>
     </main>
 
     <!-- footer content section  -->
