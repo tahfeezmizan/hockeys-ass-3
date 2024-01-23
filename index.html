@@ -33,7 +33,8 @@
         .font-family {
             font-family: 'Manrope', sans-serif;
         }
-        textarea{
+
+        textarea {
             resize: none !important;
         }
     </style>
@@ -135,8 +136,8 @@
                     <!-- circle progress  -->
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
                         <div class="">
-                            <div class="radial-progress text-red-500 mb-6 border" style="--value:87;"
-                                role="progressbar">87%</div>
+                            <div class="radial-progress text-red-500 mb-6" style="--value:87;" role="progressbar">87%
+                            </div>
                             <h4 class="text-xl mb-4 font-semibold">Prayer Facility</h4>
                             <p class="">Amet consectetur. Condimentum dignissim adipiscing .</p>
                         </div>
@@ -493,34 +494,40 @@
                         </div>
                     </div>
 
-                    
+
                     <div class="contact-from col-span-11 xl:col-span-7">
                         <div class="flex flex-col xl:flex-row gap-6 mb-6">
                             <div class="w-full xl:w-1/2">
                                 <label for="name" class="text-black text-xl font-bold">Your Name</label>
-                                <input type="text" placeholder="Enter your full name" id="name" class="w-full p-5 rounded-xl bg-gray-50 mt-4 outline-none ">
+                                <input type="text" placeholder="Enter your full name" id="name"
+                                    class="w-full p-5 rounded-xl bg-gray-50 mt-4 outline-none ">
                             </div>
                             <div class="w-full xl:w-1/2">
                                 <label for="name" class="text-black text-xl font-bold">Your Email</label>
-                                <input type="email" placeholder="Enter your email" id="name" class="w-full p-5 rounded-xl bg-gray-50 mt-4 outline-none ">
+                                <input type="email" placeholder="Enter your email" id="name"
+                                    class="w-full p-5 rounded-xl bg-gray-50 mt-4 outline-none ">
                             </div>
                         </div>
                         <div class="flex flex-col xl:flex-row gap-6 mb-6">
                             <div class="w-full xl:w-1/2">
                                 <label for="subject" class="text-black text-xl font-bold">Subject</label>
-                                <input type="text" placeholder="Enter your subject" id="subject" class="w-full p-5 rounded-xl bg-gray-50 mt-4 outline-none ">
+                                <input type="text" placeholder="Enter your subject" id="subject"
+                                    class="w-full p-5 rounded-xl bg-gray-50 mt-4 outline-none ">
                             </div>
                             <div class="w-full xl:w-1/2">
                                 <label for="number" class="text-black text-xl font-bold">Your Number</label>
-                                <input type="number" placeholder="Enter your phone number" id="number" class="w-full p-5 rounded-xl bg-gray-50 mt-4 outline-none ">
+                                <input type="number" placeholder="Enter your phone number" id="number"
+                                    class="w-full p-5 rounded-xl bg-gray-50 mt-4 outline-none ">
                             </div>
                         </div>
                         <div class="mb-8">
                             <label for="message" class="text-black text-xl font-bold">Message</label>
-                            <textarea placeholder="Write your message" id="message" cols="30" rows="10" class="w-full p-5 rounded-xl bg-gray-50 mt-4 outline-none"></textarea>
+                            <textarea placeholder="Write your message" id="message" cols="30" rows="10"
+                                class="w-full p-5 rounded-xl bg-gray-50 mt-4 outline-none"></textarea>
                         </div>
                         <button
-                        class="btn border-none rounded-8 w-full bg-red-500 text-white text-xl font-semibold hover:bg-red-800">Send Message</button>
+                            class="btn border-none rounded-8 w-full bg-red-500 text-white text-xl font-semibold hover:bg-red-800">Send
+                            Message</button>
                     </div>
                 </div>
 
@@ -540,8 +547,47 @@
     </main>
 
     <!-- footer content section  -->
-    <footer>
-
+    <footer class="footer py-28 bg-gray-900 text-base-content">
+        <div class="w-full px-4 md:px-0 md:w-8/12 mx-auto">
+            <div class="text-white grid grid-cols-12 gap-28">
+                <div class="col-span-5">
+                    <a class="text-3xl text-white font-extrabold cursor-pointer">Hockey<span
+                            class="text-red-500">’</span>s</a>
+                    <p class="font-medium text-gray-300 w-3/5 leading-7 text-base my-7">Dit amet consectetur.
+                        Condimentum adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                    <div class="state flex items-center gap-4 mb-3">
+                        <div class="rating flex items-center gap-2 text-gray-300 cursor-pointer"><i class="fa-regular fa-star"></i>5.0</div>
+                        <p class="text-base text-gray-300">hockeys@support.com</p>
+                    </div>
+                </div>
+                <div class="col-span-2">
+                    <nav class="flex flex-col">
+                        <header class="text-white text-lg font-bold mb-7">Services</header>
+                        <a class="link text-base text-gray-400 font-medium leading-10 link-hover">Branding</a>
+                        <a class="link text-base text-gray-400 font-medium leading-10 link-hover">Design</a>
+                        <a class="link text-base text-gray-400 font-medium leading-10 link-hover">Marketing</a>
+                        <a class="link text-base text-gray-400 font-medium leading-10 link-hover">Advertisement</a>
+                    </nav>
+                </div>
+                <div class="col-span-2">
+                    <nav class="flex flex-col">
+                        <header class="text-white text-lg font-bold mb-7">Company</header>
+                        <a class="link text-base text-gray-400 font-medium leading-10 link-hover">About us</a>
+                        <a class="link text-base text-gray-400 font-medium leading-10 link-hover">Contact</a>
+                        <a class="link text-base text-gray-400 font-medium leading-10 link-hover">Jobs</a>
+                        <a class="link text-base text-gray-400 font-medium leading-10 link-hover">Press kit</a>
+                    </nav>
+                </div>
+                <div class="col-span-2">
+                    <nav class="flex flex-col">
+                        <header class="text-white text-lg font-bold mb-7">Legal</header>
+                        <a class="link text-base text-gray-400 font-medium leading-10 link-hover">Terms of use</a>
+                        <a class="link text-base text-gray-400 font-medium leading-10 link-hover">Privacy policy</a>
+                        <a class="link text-base text-gray-400 font-medium leading-10 link-hover">Cookie policy</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </footer>
 
 </body>
