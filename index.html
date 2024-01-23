@@ -37,7 +37,7 @@
 <body class="font-family">
     <!-- header content section  -->
     <header>
-        <div class="navbar w-full md:w-[1170px] mx-auto py-12 px-4 lg:px-0">
+        <div class="navbar w-full md:w-8/12 mx-auto py-12 px-4 lg:px-0">
             <div class="navbar-start">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="lg:hidden">
@@ -78,14 +78,14 @@
     <!-- main content section  -->
     <main>
         <!-- Slider Section  -->
-        <section class="w-full md:w-[1170px] h-56 lg:h-[560px] mx-auto pb-12 px-4 lg:px-0">
+        <section class="w-full md:w-8/12 h-56 lg:h-[560px] mx-auto pb-12 px-4 lg:px-0">
             <div class="carousel w-full ">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="images/1.png" class="w-full h-3/4" />
                     <div class="absolute flex gap-96 left-8 right-5 top-[5%] md:top-[45%]">
                         <div class="flex gap-5 md:items-end">
-                            <a href="#slide4" class="btn bg-black text-white hover:bg-red-500  rounded-full">❮</a>
-                            <a href="#slide2" class="btn bg-black text-white hover:bg-red-500  rounded-full">❯</a>
+                            <a href="#slide4" class="btn border-none bg-black text-white hover:bg-red-500  rounded-full">❮</a>
+                            <a href="#slide2" class="btn border-none bg-black text-white hover:bg-red-500  rounded-full">❯</a>
                         </div>
                         <div class="slide-content p-8 bg-black rounded-xl ml-16">
                             <h2 class="text-white text-3xl mb-4 font-extrabold">Meet all the heroes from the field</h2>
@@ -98,8 +98,8 @@
                     <img src="images/2.png" class="w-full h-3/4" />
                     <div class="absolute flex gap-96 left-8 right-5 top-[5%] md:top-[45%]">
                         <div class="flex gap-5 md:items-end">
-                            <a href="#slide1" class="btn bg-black text-white hover:bg-red-500  rounded-full">❮</a>
-                            <a href="#slide3" class="btn bg-black text-white hover:bg-red-500  rounded-full">❯</a>
+                            <a href="#slide1" class="btn border-none bg-black text-white hover:bg-red-500  rounded-full">❮</a>
+                            <a href="#slide3" class="btn border-none bg-black text-white hover:bg-red-500  rounded-full">❯</a>
                         </div>
                         <div class="slide-content p-8 bg-black rounded-xl ml-16">
                             <h2 class="text-white text-3xl mb-4 font-extrabold">Meet all the heroes from the field</h2>
@@ -113,17 +113,17 @@
 
 
         <section class="py-12">
-            <div class="w-full md:w-[1170px] mx-auto">
+            <div class="w-full md:w-8/12 mx-auto">
                 <div class="">
-                    <div class="text-center border-y-2 py-8 border-dotted mb-8">
+                    <div class="text-center border-y-2 py-9 border-dotted mb-8">
                         <h1 class="text-4xl font-extrabold mb-6">Professional Hockeys Club</h1>
-                        <p class="font-medium ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+                        <p class="font-medium w-1/2 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
                             placerat dolor. Purus urna in sit nullam proin. </p>
                     </div>
                     <!-- circle progress  -->
                     <div class="flex text-center">
                         <div class="">
-                            <div class="radial-progress text-red-500 mb-6" style="--value:87;" role="progressbar">87%</div>
+                            <div class="radial-progress text-red-500 mb-6 border" style="--value:87;" role="progressbar">87%</div>
                             <h4 class="text-xl mb-4 font-semibold">Prayer Facility</h4>
                             <p class="">Amet consectetur. Condimentum dignissim adipiscing .</p>
                         </div>
@@ -149,11 +149,54 @@
 
 
         <section class="py-12">
-            <div class="w-full md:w-[1170px] mx-auto">
-                <div class="text-center border-y-2 py-8 border-dotted mb-8">
-                    <h1 class="text-4xl font-extrabold mb-6">Professional Hockeys Club</h1>
-                    <p class="font-medium ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+            <div class="w-full md:w-8/12 mx-auto">
+                <div class="text-center border-y-2 py-9 border-dotted mb-8">
+                    <h1 class="text-4xl font-extrabold mb-6">Program Sections</h1>
+                    <p class="font-medium w-1/2 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
                         placerat dolor. Purus urna in sit nullam proin. </p>
+                </div>
+                <!-- gallery container  -->
+                <div class="gallery grid gap-6 grid-cols-12 grid-rows-2 justify-center items-center">
+
+                    <!-- item 1 -->
+                    <div class="item relative h-80 col-span-6">
+                        <img class="w-full h-full rounded-2xl" src="Images/2.png" alt="">
+                        <!-- bg overlay  -->
+                        <div class="overlay absolute rounded-2xl inset-0 bg-black opacity-50"></div>
+                        <!-- image above text content  -->
+                        <div class="absolute top-12 p-10 w-full h-full">
+                            <h3 class="text-3xl font-extrabold mb-4 text-white">Junior Program</h3>
+                            <p class="font-medium mb-6 text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                            <button class="btn border-none rounded-8 bg-red-500 text-white text-xl font-semibold hover:bg-red-600">Register Now!</button>
+                        </div>
+                    </div>
+                    <!-- item 2 -->
+                    <div class="item relative h-80 col-span-6">
+                        <img class="w-full h-full rounded-2xl" src="Images/3.png" alt="">
+                        <!-- bg overlay  -->
+                        <div class="overlay absolute rounded-2xl inset-0 bg-black opacity-50"></div>
+                        <!-- image above text content  -->
+                        <div class="absolute top-12 p-10 w-full h-full">
+                            <h3 class="text-3xl font-extrabold mb-4 text-white">Junior Program</h3>
+                            <p class="font-medium mb-6 text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                            <button class="btn border-none rounded-8 bg-red-500 text-white text-xl font-semibold hover:bg-red-600">Register Now!</button>
+                        </div>
+                    </div>
+                    <!-- item 2 -->
+                    <div class="item relative h-[450px] col-span-full">
+                        <img class="w-full h-full rounded-2xl " src="Images/4.png" alt="">
+                        <!-- bg overlay  -->
+                        <div class="overlay absolute rounded-2xl inset-0 bg-black opacity-50"></div>
+                        <!-- image above text content  -->
+                        <div class="absolute top-40 p-10 w-1/2 ">
+                            <h3 class="text-3xl font-extrabold mb-4 text-white">Junior Program</h3>
+                            <p class="font-medium mb-6 text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                            <button class="btn border-none rounded-8 bg-red-500 text-white text-xl font-semibold hover:bg-red-600">Register Now!</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
